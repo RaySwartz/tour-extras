@@ -14,6 +14,8 @@
 		DC21A7C721AC6E1C00F445AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7C621AC6E1C00F445AB /* Assets.xcassets */; };
 		DC21A7CA21AC6E1C00F445AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7C821AC6E1C00F445AB /* LaunchScreen.storyboard */; };
 		DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7D421AC6E1C00F445AB /* TourExtrasTests.swift */; };
+		DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
+		DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DC21A7D021AC6E1C00F445AB /* TourExtrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourExtrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC21A7D421AC6E1C00F445AB /* TourExtrasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourExtrasTests.swift; sourceTree = "<group>"; };
 		DC21A7D621AC6E1C00F445AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-N.otf"; sourceTree = "<group>"; };
+		DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-Ita.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		DC21A7BC21AC6E1B00F445AB /* TourExtras */ = {
 			isa = PBXGroup;
 			children = (
+				DC21A7E021ADCAB400F445AB /* fonts */,
 				DC21A7BD21AC6E1B00F445AB /* AppDelegate.swift */,
 				DC21A7BF21AC6E1B00F445AB /* MasterViewController.swift */,
 				DC21A7C121AC6E1B00F445AB /* DetailViewController.swift */,
@@ -97,6 +102,15 @@
 				DC21A7D621AC6E1C00F445AB /* Info.plist */,
 			);
 			path = TourExtrasTests;
+			sourceTree = "<group>";
+		};
+		DC21A7E021ADCAB400F445AB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */,
+				DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC21A7CA21AC6E1C00F445AB /* LaunchScreen.storyboard in Resources */,
+				DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */,
+				DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */,
 				DC21A7C721AC6E1C00F445AB /* Assets.xcassets in Resources */,
 				DC21A7C521AC6E1B00F445AB /* Main.storyboard in Resources */,
 			);
