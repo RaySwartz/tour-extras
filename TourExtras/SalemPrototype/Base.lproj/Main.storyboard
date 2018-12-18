@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SalemPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPF-T0-6Sg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1820_map.png" translatesAutoresizingMaskIntoConstraints="NO" id="5xB-M6-ktQ">
+                                        <rect key="frame" x="8" y="10" width="359" height="375"/>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQq-cs-WgB">
+                                        <rect key="frame" x="0.0" y="619" width="375" height="22"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="1820 map of Salem">
+                                                <attributes>
+                                                    <color key="NSColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                    <font key="NSFont" size="18" name="1785GLCBaskervilleNormal"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5xB-M6-ktQ" firstAttribute="leading" secondItem="PPF-T0-6Sg" secondAttribute="leadingMargin" id="6JQ-Dz-5YZ"/>
+                                    <constraint firstItem="WQq-cs-WgB" firstAttribute="leading" secondItem="PPF-T0-6Sg" secondAttribute="leading" id="MNB-ad-6Bv"/>
+                                    <constraint firstItem="5xB-M6-ktQ" firstAttribute="centerX" secondItem="WQq-cs-WgB" secondAttribute="centerX" id="YeK-GX-SjJ"/>
+                                    <constraint firstItem="5xB-M6-ktQ" firstAttribute="top" secondItem="PPF-T0-6Sg" secondAttribute="topMargin" constant="2" id="gTl-rp-wE1"/>
+                                    <constraint firstAttribute="trailing" secondItem="WQq-cs-WgB" secondAttribute="trailing" id="lzd-4x-lNR"/>
+                                    <constraint firstAttribute="bottom" secondItem="WQq-cs-WgB" secondAttribute="bottom" constant="6" id="pbr-Og-4JL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PPF-T0-6Sg" secondAttribute="bottom" id="EFQ-J2-xdJ"/>
+                            <constraint firstItem="PPF-T0-6Sg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="EJ0-TL-TXR"/>
+                            <constraint firstItem="PPF-T0-6Sg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pvq-pq-vOf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PPF-T0-6Sg" secondAttribute="trailing" id="b94-Vj-dtC"/>
+                            <constraint firstItem="PPF-T0-6Sg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iwo-P6-BeR"/>
+                            <constraint firstItem="PPF-T0-6Sg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wB6-sF-hBm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1239" y="-251"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1820_map.png" width="458" height="375"/>
+    </resources>
+</document>

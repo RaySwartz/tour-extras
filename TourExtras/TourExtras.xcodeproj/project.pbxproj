@@ -16,6 +16,16 @@
 		DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7D421AC6E1C00F445AB /* TourExtrasTests.swift */; };
 		DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
 		DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
+		DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F5E21C98720007470BD /* AppDelegate.swift */; };
+		DCDE5F6121C98720007470BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F6021C98720007470BD /* ViewController.swift */; };
+		DCDE5F6421C98720007470BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6221C98720007470BD /* Main.storyboard */; };
+		DCDE5F6621C98722007470BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6521C98722007470BD /* Assets.xcassets */; };
+		DCDE5F6921C98722007470BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6721C98722007470BD /* LaunchScreen.storyboard */; };
+		DCDE5F7421C98722007470BD /* SalemPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F7321C98722007470BD /* SalemPrototypeTests.swift */; };
+		DCDE5F7C21C98A0A007470BD /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
+		DCDE5F7D21C98A0D007470BD /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
+		DCDE5F7F21C98E13007470BD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F7E21C98E13007470BD /* assets */; };
+		DCDE5F8021C98E13007470BD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F7E21C98E13007470BD /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +35,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = DC21A7B921AC6E1B00F445AB;
 			remoteInfo = TourExtras;
+		};
+		DCDE5F7021C98722007470BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC21A7B221AC6E1B00F445AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDE5F5B21C98720007470BD;
+			remoteInfo = SalemPrototype;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,6 +59,17 @@
 		DC21A7D621AC6E1C00F445AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-N.otf"; sourceTree = "<group>"; };
 		DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-Ita.otf"; sourceTree = "<group>"; };
+		DCDE5F5C21C98720007470BD /* SalemPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalemPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDE5F5E21C98720007470BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCDE5F6021C98720007470BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCDE5F6321C98720007470BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDE5F6521C98722007470BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDE5F6821C98722007470BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCDE5F6A21C98722007470BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDE5F6F21C98722007470BD /* SalemPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalemPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDE5F7321C98722007470BD /* SalemPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalemPrototypeTests.swift; sourceTree = "<group>"; };
+		DCDE5F7521C98722007470BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDE5F7E21C98E13007470BD /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,14 +87,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCDE5F5921C98720007470BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDE5F6C21C98722007470BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DC21A7B121AC6E1B00F445AB = {
 			isa = PBXGroup;
 			children = (
+				DCDE5F7E21C98E13007470BD /* assets */,
 				DC21A7BC21AC6E1B00F445AB /* TourExtras */,
 				DC21A7D321AC6E1C00F445AB /* TourExtrasTests */,
+				DCDE5F5D21C98720007470BD /* SalemPrototype */,
+				DCDE5F7221C98722007470BD /* SalemPrototypeTests */,
 				DC21A7BB21AC6E1B00F445AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +121,8 @@
 			children = (
 				DC21A7BA21AC6E1B00F445AB /* TourExtras.app */,
 				DC21A7D021AC6E1C00F445AB /* TourExtrasTests.xctest */,
+				DCDE5F5C21C98720007470BD /* SalemPrototype.app */,
+				DCDE5F6F21C98722007470BD /* SalemPrototypeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +158,28 @@
 				DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		DCDE5F5D21C98720007470BD /* SalemPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE5F5E21C98720007470BD /* AppDelegate.swift */,
+				DCDE5F6021C98720007470BD /* ViewController.swift */,
+				DCDE5F6221C98720007470BD /* Main.storyboard */,
+				DCDE5F6521C98722007470BD /* Assets.xcassets */,
+				DCDE5F6721C98722007470BD /* LaunchScreen.storyboard */,
+				DCDE5F6A21C98722007470BD /* Info.plist */,
+			);
+			path = SalemPrototype;
+			sourceTree = "<group>";
+		};
+		DCDE5F7221C98722007470BD /* SalemPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE5F7321C98722007470BD /* SalemPrototypeTests.swift */,
+				DCDE5F7521C98722007470BD /* Info.plist */,
+			);
+			path = SalemPrototypeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +220,41 @@
 			productReference = DC21A7D021AC6E1C00F445AB /* TourExtrasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DCDE5F5B21C98720007470BD /* SalemPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDE5F7A21C98722007470BD /* Build configuration list for PBXNativeTarget "SalemPrototype" */;
+			buildPhases = (
+				DCDE5F5821C98720007470BD /* Sources */,
+				DCDE5F5921C98720007470BD /* Frameworks */,
+				DCDE5F5A21C98720007470BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalemPrototype;
+			productName = SalemPrototype;
+			productReference = DCDE5F5C21C98720007470BD /* SalemPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCDE5F6E21C98722007470BD /* SalemPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDE5F7B21C98722007470BD /* Build configuration list for PBXNativeTarget "SalemPrototypeTests" */;
+			buildPhases = (
+				DCDE5F6B21C98722007470BD /* Sources */,
+				DCDE5F6C21C98722007470BD /* Frameworks */,
+				DCDE5F6D21C98722007470BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDE5F7121C98722007470BD /* PBXTargetDependency */,
+			);
+			name = SalemPrototypeTests;
+			productName = SalemPrototypeTests;
+			productReference = DCDE5F6F21C98722007470BD /* SalemPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +271,13 @@
 					DC21A7CF21AC6E1C00F445AB = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = DC21A7B921AC6E1B00F445AB;
+					};
+					DCDE5F5B21C98720007470BD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DCDE5F6E21C98722007470BD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DCDE5F5B21C98720007470BD;
 					};
 				};
 			};
@@ -185,6 +296,8 @@
 			targets = (
 				DC21A7B921AC6E1B00F445AB /* TourExtras */,
 				DC21A7CF21AC6E1C00F445AB /* TourExtrasTests */,
+				DCDE5F5B21C98720007470BD /* SalemPrototype */,
+				DCDE5F6E21C98722007470BD /* SalemPrototypeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,12 +310,33 @@
 				DC21A7CA21AC6E1C00F445AB /* LaunchScreen.storyboard in Resources */,
 				DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */,
 				DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */,
+				DCDE5F7F21C98E13007470BD /* assets in Resources */,
 				DC21A7C721AC6E1C00F445AB /* Assets.xcassets in Resources */,
 				DC21A7C521AC6E1B00F445AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DC21A7CE21AC6E1C00F445AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDE5F5A21C98720007470BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE5F6921C98722007470BD /* LaunchScreen.storyboard in Resources */,
+				DCDE5F6621C98722007470BD /* Assets.xcassets in Resources */,
+				DCDE5F7D21C98A0D007470BD /* 1785 GLC Baskerville-Ita.otf in Resources */,
+				DCDE5F8021C98E13007470BD /* assets in Resources */,
+				DCDE5F6421C98720007470BD /* Main.storyboard in Resources */,
+				DCDE5F7C21C98A0A007470BD /* 1785 GLC Baskerville-N.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDE5F6D21C98722007470BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -230,6 +364,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCDE5F5821C98720007470BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE5F6121C98720007470BD /* ViewController.swift in Sources */,
+				DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDE5F6B21C98722007470BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE5F7421C98722007470BD /* SalemPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -237,6 +388,11 @@
 			isa = PBXTargetDependency;
 			target = DC21A7B921AC6E1B00F445AB /* TourExtras */;
 			targetProxy = DC21A7D121AC6E1C00F445AB /* PBXContainerItemProxy */;
+		};
+		DCDE5F7121C98722007470BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDE5F5B21C98720007470BD /* SalemPrototype */;
+			targetProxy = DCDE5F7021C98722007470BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -253,6 +409,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC21A7C921AC6E1C00F445AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCDE5F6221C98720007470BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDE5F6321C98720007470BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCDE5F6721C98722007470BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDE5F6821C98722007470BD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -454,6 +626,84 @@
 			};
 			name = Release;
 		};
+		DCDE5F7621C98722007470BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8M6P85B32;
+				INFOPLIST_FILE = SalemPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartzware.SalemPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCDE5F7721C98722007470BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8M6P85B32;
+				INFOPLIST_FILE = SalemPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartzware.SalemPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCDE5F7821C98722007470BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8M6P85B32;
+				INFOPLIST_FILE = SalemPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartzware.SalemPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalemPrototype.app/SalemPrototype";
+			};
+			name = Debug;
+		};
+		DCDE5F7921C98722007470BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8M6P85B32;
+				INFOPLIST_FILE = SalemPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartzware.SalemPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalemPrototype.app/SalemPrototype";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -480,6 +730,24 @@
 			buildConfigurations = (
 				DC21A7DD21AC6E1C00F445AB /* Debug */,
 				DC21A7DE21AC6E1C00F445AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDE5F7A21C98722007470BD /* Build configuration list for PBXNativeTarget "SalemPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDE5F7621C98722007470BD /* Debug */,
+				DCDE5F7721C98722007470BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDE5F7B21C98722007470BD /* Build configuration list for PBXNativeTarget "SalemPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDE5F7821C98722007470BD /* Debug */,
+				DCDE5F7921C98722007470BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
