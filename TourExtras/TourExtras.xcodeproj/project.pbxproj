@@ -16,6 +16,14 @@
 		DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7D421AC6E1C00F445AB /* TourExtrasTests.swift */; };
 		DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
 		DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
+		DC35217421CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
+		DC35217521CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
+		DC35217621CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
+		DC35217721CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
+		DC35217921CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
+		DC35217A21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
+		DC35217B21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
+		DC35217C21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
 		DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F5E21C98720007470BD /* AppDelegate.swift */; };
 		DCDE5F6121C98720007470BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F6021C98720007470BD /* ViewController.swift */; };
 		DCDE5F6421C98720007470BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6221C98720007470BD /* Main.storyboard */; };
@@ -59,6 +67,8 @@
 		DC21A7D621AC6E1C00F445AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-N.otf"; sourceTree = "<group>"; };
 		DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-Ita.otf"; sourceTree = "<group>"; };
+		DC35217321CAD2F50014568D /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		DC35217821CAD9400014568D /* PointsOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterest.swift; sourceTree = "<group>"; };
 		DCDE5F5C21C98720007470BD /* SalemPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalemPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDE5F5E21C98720007470BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCDE5F6021C98720007470BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +117,8 @@
 		DC21A7B121AC6E1B00F445AB = {
 			isa = PBXGroup;
 			children = (
+				DC35217321CAD2F50014568D /* PointOfInterest.swift */,
+				DC35217821CAD9400014568D /* PointsOfInterest.swift */,
 				DCDE5F7E21C98E13007470BD /* assets */,
 				DC21A7BC21AC6E1B00F445AB /* TourExtras */,
 				DC21A7D321AC6E1C00F445AB /* TourExtrasTests */,
@@ -351,7 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC21A7C221AC6E1B00F445AB /* DetailViewController.swift in Sources */,
+				DC35217921CAD9400014568D /* PointsOfInterest.swift in Sources */,
 				DC21A7C021AC6E1B00F445AB /* MasterViewController.swift in Sources */,
+				DC35217421CAD2F50014568D /* PointOfInterest.swift in Sources */,
 				DC21A7BE21AC6E1B00F445AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */,
+				DC35217A21CAD9400014568D /* PointsOfInterest.swift in Sources */,
+				DC35217521CAD2F50014568D /* PointOfInterest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +384,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC35217B21CAD9400014568D /* PointsOfInterest.swift in Sources */,
 				DCDE5F6121C98720007470BD /* ViewController.swift in Sources */,
+				DC35217621CAD2F50014568D /* PointOfInterest.swift in Sources */,
 				DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDE5F7421C98722007470BD /* SalemPrototypeTests.swift in Sources */,
+				DC35217C21CAD9400014568D /* PointsOfInterest.swift in Sources */,
+				DC35217721CAD2F50014568D /* PointOfInterest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
