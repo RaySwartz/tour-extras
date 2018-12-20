@@ -8,6 +8,7 @@
 
 import Foundation
 import CoreLocation
+import UIKit
 
 class PointOfInterest {
     
@@ -15,11 +16,17 @@ class PointOfInterest {
     var center : CLLocationCoordinate2D
     var radius : Double
     var text: String
+    var images: [ImageContent]
 
-    init(label: String, center: CLLocationCoordinate2D, radius: Double, text: String = "") {
+    init(label: String, center: CLLocationCoordinate2D, radius: Double, images: [ImageContent], text: String = "") {
         self.label = label
         self.center = center
         self.radius = radius
         self.text = text
+        self.images = images
+    }
+    
+    func setImages (images: [ImageContent]) {
+        self.images = images
     }
 }
