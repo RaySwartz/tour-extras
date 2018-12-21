@@ -38,6 +38,8 @@
 		DCDE5F7D21C98A0D007470BD /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
 		DCDE5F7F21C98E13007470BD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F7E21C98E13007470BD /* assets */; };
 		DCDE5F8021C98E13007470BD /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F7E21C98E13007470BD /* assets */; };
+		DCE1DA4521CD68BE004C2300 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F7E21C98E13007470BD /* assets */; };
+		DCE1DA4621CD68BF004C2300 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F7E21C98E13007470BD /* assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -338,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1DA4521CD68BE004C2300 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1DA4621CD68BF004C2300 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
