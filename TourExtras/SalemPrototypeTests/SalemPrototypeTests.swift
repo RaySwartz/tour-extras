@@ -37,6 +37,15 @@ class SalemPrototypeTests: XCTestCase {
         XCTAssertFalse(ic == nil)
     }
     
+    func testImageContentCreation29a() {
+        var ic : ImageContent?
+        let p = UIImage(named: "29a")
+        if let temp = p {
+            ic = ImageContent(image: temp, text: "")
+        }
+        XCTAssertFalse(ic == nil)
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
