@@ -20,6 +20,7 @@
 		DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7D421AC6E1C00F445AB /* TourExtrasTests.swift */; };
 		DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
 		DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
+		DC321FFF21DFB926004C7227 /* ios-icons in Resources */ = {isa = PBXBuildFile; fileRef = DC321FFE21DFB926004C7227 /* ios-icons */; };
 		DC35217421CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
 		DC35217521CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
 		DC35217621CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
@@ -28,6 +29,7 @@
 		DC35217A21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
 		DC35217B21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
 		DC35217C21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
+		DC41B39A21EA424100E43808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7C621AC6E1C00F445AB /* Assets.xcassets */; };
 		DCB043B521CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
 		DCB043B621CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
 		DCB043B721CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
@@ -35,7 +37,6 @@
 		DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F5E21C98720007470BD /* AppDelegate.swift */; };
 		DCDE5F6121C98720007470BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F6021C98720007470BD /* ViewController.swift */; };
 		DCDE5F6421C98720007470BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6221C98720007470BD /* Main.storyboard */; };
-		DCDE5F6621C98722007470BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6521C98722007470BD /* Assets.xcassets */; };
 		DCDE5F6921C98722007470BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE5F6721C98722007470BD /* LaunchScreen.storyboard */; };
 		DCDE5F7421C98722007470BD /* SalemPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE5F7321C98722007470BD /* SalemPrototypeTests.swift */; };
 		DCDE5F7C21C98A0A007470BD /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
@@ -78,6 +79,7 @@
 		DC21A7D621AC6E1C00F445AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-N.otf"; sourceTree = "<group>"; };
 		DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-Ita.otf"; sourceTree = "<group>"; };
+		DC321FFE21DFB926004C7227 /* ios-icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ios-icons"; sourceTree = "<group>"; };
 		DC35217321CAD2F50014568D /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		DC35217821CAD9400014568D /* PointsOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterest.swift; sourceTree = "<group>"; };
 		DCB043B421CC2F0E00FA43CA /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
@@ -85,7 +87,6 @@
 		DCDE5F5E21C98720007470BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCDE5F6021C98720007470BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCDE5F6321C98720007470BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCDE5F6521C98722007470BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCDE5F6821C98722007470BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCDE5F6A21C98722007470BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCDE5F6F21C98722007470BD /* SalemPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalemPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +134,7 @@
 				DC35217821CAD9400014568D /* PointsOfInterest.swift */,
 				DCB043B421CC2F0E00FA43CA /* ImageContent.swift */,
 				DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */,
+				DC321FFE21DFB926004C7227 /* ios-icons */,
 				DCDE5F7E21C98E13007470BD /* assets */,
 				DC21A7BC21AC6E1B00F445AB /* TourExtras */,
 				DC21A7D321AC6E1C00F445AB /* TourExtrasTests */,
@@ -192,7 +194,6 @@
 				DCDE5F5E21C98720007470BD /* AppDelegate.swift */,
 				DCDE5F6021C98720007470BD /* ViewController.swift */,
 				DCDE5F6221C98720007470BD /* Main.storyboard */,
-				DCDE5F6521C98722007470BD /* Assets.xcassets */,
 				DCDE5F6721C98722007470BD /* LaunchScreen.storyboard */,
 				DCDE5F6A21C98722007470BD /* Info.plist */,
 			);
@@ -355,10 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDE5F6921C98722007470BD /* LaunchScreen.storyboard in Resources */,
-				DCDE5F6621C98722007470BD /* Assets.xcassets in Resources */,
 				DCDE5F7D21C98A0D007470BD /* 1785 GLC Baskerville-Ita.otf in Resources */,
 				DCDE5F8021C98E13007470BD /* assets in Resources */,
 				DCDE5F6421C98720007470BD /* Main.storyboard in Resources */,
+				DC41B39A21EA424100E43808 /* Assets.xcassets in Resources */,
+				DC321FFF21DFB926004C7227 /* ios-icons in Resources */,
 				DCDE5F7C21C98A0A007470BD /* 1785 GLC Baskerville-N.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
