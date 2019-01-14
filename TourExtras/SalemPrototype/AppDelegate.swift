@@ -10,16 +10,46 @@ import UIKit
 import CoreLocation
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let theLocationManager = CLLocationManager()
+        enableBasicLocationServices(locationManager: theLocationManager)
+
         return true
     }
 
+    func enableBasicLocationServices(locationManager: CLLocationManager) {
+        locationManager.delegate = self
+        
+        switch CLLocationManager.authorizationStatus() {
+        case .notDetermined:
+            // Request when-in-use authorization initially
+            locationManager.requestWhenInUseAuthorization()
+            break
+            
+        case .restricted, .denied:
+            // Disable location features
+            disableMyLocationBasedFeatures()
+            break
+            
+        case .authorizedWhenInUse, .authorizedAlways:
+            // Enable location features
+            enableMyWhenInUseFeatures()
+            break
+        }
+    }
+
+    func disableMyLocationBasedFeatures() {
+        //
+    }
+    func enableMyWhenInUseFeatures() {
+        //
+    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
