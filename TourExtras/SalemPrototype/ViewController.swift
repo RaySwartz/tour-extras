@@ -11,6 +11,8 @@ import CoreLocation
 
 class ViewController: UIViewController {
 
+    var currentLocation: CLLocationCoordinate2D?
+    
      required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
@@ -18,9 +20,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let _ = PointsOfInterest()
-        var currentLocation = CurrentLocation().currentCoordinate
-        var x: Int
-        
+//        currentLocation = CurrentLocation().currentCoordinate // succeeds
+//        if let cl = currentLocation {
+//            print("Current location: \(cl)")
+//        }
     }
 
 

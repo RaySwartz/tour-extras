@@ -16,22 +16,30 @@ class CurrentLocation : NSObject, CLLocationManagerDelegate {
     var manager : CLLocationManager
     
     override init() {
-        // currentCoordinate = homeCoordinate
+        currentCoordinate = homeCoordinate
         manager = CLLocationManager()
         super.init()
+        startStandardUpdates()
+    }
+    
+    func startStandardUpdates() {
+        
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
         manager.distanceFilter = 50 * 0.30480 // meters
+        manager.pausesLocationUpdatesAutomatically = true
         if CLLocationManager.locationServicesEnabled() {
             manager.startUpdatingLocation()
         }
-        
+
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let lastObject = locations.last
+        let lastObject: CLLocation = locations.last!
         
-        var stub = lastObject
+        if lastObject != nil {
+         print("last location \(lastObject.coordinate.longitude) ")
+        }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
@@ -39,6 +47,10 @@ class CurrentLocation : NSObject, CLLocationManagerDelegate {
   }
     //    func update() -> CLLocationCoordinate2D {
     //      }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print("error code \(error)")
+    }
 }
 
 

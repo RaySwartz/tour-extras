@@ -13,36 +13,37 @@ import CoreLocation
 class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 
     var window: UIWindow?
+    var locationManager: LocationManager?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let theLocationManager = CLLocationManager()
-        enableBasicLocationServices(locationManager: theLocationManager)
+        self.locationManager = LocationManager()
+//        enableBasicLocationServices(locationManager: theLocationManager)
 
         return true
     }
 
-    func enableBasicLocationServices(locationManager: CLLocationManager) {
-        locationManager.delegate = self
-        
-        switch CLLocationManager.authorizationStatus() {
-        case .notDetermined:
-            // Request when-in-use authorization initially
-            locationManager.requestWhenInUseAuthorization()
-            break
-            
-        case .restricted, .denied:
-            // Disable location features
-            disableMyLocationBasedFeatures()
-            break
-            
-        case .authorizedWhenInUse, .authorizedAlways:
-            // Enable location features
-            enableMyWhenInUseFeatures()
-            break
-        }
-    }
+//    func enableBasicLocationServices(locationManager: CLLocationManager) {
+//        locationManager.delegate = self
+//
+//        switch CLLocationManager.authorizationStatus() {
+//        case .notDetermined:
+//            // Request when-in-use authorization initially
+//            locationManager.requestWhenInUseAuthorization()
+//            break
+//
+//        case .restricted, .denied:
+//            // Disable location features
+//            disableMyLocationBasedFeatures()
+//            break
+//
+//        case .authorizedWhenInUse, .authorizedAlways:
+//            // Enable location features
+//            enableMyWhenInUseFeatures()
+//            break
+//        }
+//    }
 
     func disableMyLocationBasedFeatures() {
         //

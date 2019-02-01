@@ -49,5 +49,9 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>&quot;App requires knowledge of your location in order to work&quot;</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>&quot;NSLocationAlwaysAndWhenInUseUsageDescription&quot;</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>&quot;NSLocationWhenInUseUsageDescription&quot;</string>
 </dict>
 </plist>

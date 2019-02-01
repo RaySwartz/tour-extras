@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC113D8B21DE80F1008A4D36 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */; };
-		DC113D8C21DE80F1008A4D36 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */; };
-		DC113D8D21DE80F1008A4D36 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */; };
-		DC113D8E21DE80F1008A4D36 /* CurrentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */; };
 		DC21A7BE21AC6E1B00F445AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7BD21AC6E1B00F445AB /* AppDelegate.swift */; };
 		DC21A7C021AC6E1B00F445AB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7BF21AC6E1B00F445AB /* MasterViewController.swift */; };
 		DC21A7C221AC6E1B00F445AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7C121AC6E1B00F445AB /* DetailViewController.swift */; };
@@ -21,6 +17,26 @@
 		DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
 		DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
 		DC321FFF21DFB926004C7227 /* ios-icons in Resources */ = {isa = PBXBuildFile; fileRef = DC321FFE21DFB926004C7227 /* ios-icons */; };
+		DC3506832204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
+		DC3506842204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
+		DC3506852204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
+		DC3506862204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
+		DC3506882204AB2D009AB5A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506872204AB2D009AB5A7 /* LocationManager.swift */; };
+		DC3506892204AB2D009AB5A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506872204AB2D009AB5A7 /* LocationManager.swift */; };
+		DC35068A2204AB2D009AB5A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506872204AB2D009AB5A7 /* LocationManager.swift */; };
+		DC35068B2204AB2D009AB5A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506872204AB2D009AB5A7 /* LocationManager.swift */; };
+		DC35068D2204AB38009AB5A7 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35068C2204AB38009AB5A7 /* LocationProvider.swift */; };
+		DC35068E2204AB38009AB5A7 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35068C2204AB38009AB5A7 /* LocationProvider.swift */; };
+		DC35068F2204AB38009AB5A7 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35068C2204AB38009AB5A7 /* LocationProvider.swift */; };
+		DC3506902204AB38009AB5A7 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35068C2204AB38009AB5A7 /* LocationProvider.swift */; };
+		DC3506922204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */; };
+		DC3506932204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */; };
+		DC3506942204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */; };
+		DC3506952204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */; };
+		DC3506972204AB93009AB5A7 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506962204AB92009AB5A7 /* Preferences.swift */; };
+		DC3506982204AB93009AB5A7 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506962204AB92009AB5A7 /* Preferences.swift */; };
+		DC3506992204AB93009AB5A7 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506962204AB92009AB5A7 /* Preferences.swift */; };
+		DC35069A2204AB93009AB5A7 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506962204AB92009AB5A7 /* Preferences.swift */; };
 		DC35217421CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
 		DC35217521CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
 		DC35217621CAD2F50014568D /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217321CAD2F50014568D /* PointOfInterest.swift */; };
@@ -65,7 +81,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocation.swift; sourceTree = SOURCE_ROOT; };
 		DC21A7BA21AC6E1B00F445AB /* TourExtras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourExtras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC21A7BD21AC6E1B00F445AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC21A7BF21AC6E1B00F445AB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +95,11 @@
 		DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-N.otf"; sourceTree = "<group>"; };
 		DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-Ita.otf"; sourceTree = "<group>"; };
 		DC321FFE21DFB926004C7227 /* ios-icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ios-icons"; sourceTree = "<group>"; };
+		DC3506822204AB1C009AB5A7 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DC3506872204AB2D009AB5A7 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DC35068C2204AB38009AB5A7 /* LocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Location+CoreLocation.swift"; sourceTree = "<group>"; };
+		DC3506962204AB92009AB5A7 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		DC35217321CAD2F50014568D /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		DC35217821CAD9400014568D /* PointsOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterest.swift; sourceTree = "<group>"; };
 		DCB043B421CC2F0E00FA43CA /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
@@ -132,8 +152,12 @@
 			children = (
 				DC35217321CAD2F50014568D /* PointOfInterest.swift */,
 				DC35217821CAD9400014568D /* PointsOfInterest.swift */,
+				DC3506822204AB1C009AB5A7 /* Location.swift */,
+				DC3506872204AB2D009AB5A7 /* LocationManager.swift */,
+				DC35068C2204AB38009AB5A7 /* LocationProvider.swift */,
+				DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */,
+				DC3506962204AB92009AB5A7 /* Preferences.swift */,
 				DCB043B421CC2F0E00FA43CA /* ImageContent.swift */,
-				DC113D8A21DE80F1008A4D36 /* CurrentLocation.swift */,
 				DC321FFE21DFB926004C7227 /* ios-icons */,
 				DCDE5F7E21C98E13007470BD /* assets */,
 				DC21A7BC21AC6E1B00F445AB /* TourExtras */,
@@ -382,11 +406,15 @@
 			files = (
 				DC21A7C221AC6E1B00F445AB /* DetailViewController.swift in Sources */,
 				DCB043B521CC2F0E00FA43CA /* ImageContent.swift in Sources */,
+				DC3506972204AB93009AB5A7 /* Preferences.swift in Sources */,
+				DC3506922204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */,
+				DC3506832204AB1C009AB5A7 /* Location.swift in Sources */,
 				DC35217921CAD9400014568D /* PointsOfInterest.swift in Sources */,
-				DC113D8B21DE80F1008A4D36 /* CurrentLocation.swift in Sources */,
 				DC21A7C021AC6E1B00F445AB /* MasterViewController.swift in Sources */,
 				DC35217421CAD2F50014568D /* PointOfInterest.swift in Sources */,
 				DC21A7BE21AC6E1B00F445AB /* AppDelegate.swift in Sources */,
+				DC3506882204AB2D009AB5A7 /* LocationManager.swift in Sources */,
+				DC35068D2204AB38009AB5A7 /* LocationProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +424,12 @@
 			files = (
 				DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */,
 				DC35217A21CAD9400014568D /* PointsOfInterest.swift in Sources */,
+				DC3506982204AB93009AB5A7 /* Preferences.swift in Sources */,
 				DC35217521CAD2F50014568D /* PointOfInterest.swift in Sources */,
-				DC113D8C21DE80F1008A4D36 /* CurrentLocation.swift in Sources */,
+				DC3506892204AB2D009AB5A7 /* LocationManager.swift in Sources */,
+				DC3506932204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */,
+				DC35068E2204AB38009AB5A7 /* LocationProvider.swift in Sources */,
+				DC3506842204AB1C009AB5A7 /* Location.swift in Sources */,
 				DCB043B621CC2F0E00FA43CA /* ImageContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,12 +438,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC113D8D21DE80F1008A4D36 /* CurrentLocation.swift in Sources */,
 				DC35217B21CAD9400014568D /* PointsOfInterest.swift in Sources */,
 				DCDE5F6121C98720007470BD /* ViewController.swift in Sources */,
+				DC35068F2204AB38009AB5A7 /* LocationProvider.swift in Sources */,
 				DCB043B721CC2F0E00FA43CA /* ImageContent.swift in Sources */,
+				DC35068A2204AB2D009AB5A7 /* LocationManager.swift in Sources */,
 				DC35217621CAD2F50014568D /* PointOfInterest.swift in Sources */,
+				DC3506992204AB93009AB5A7 /* Preferences.swift in Sources */,
 				DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */,
+				DC3506942204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */,
+				DC3506852204AB1C009AB5A7 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +457,12 @@
 			files = (
 				DCDE5F7421C98722007470BD /* SalemPrototypeTests.swift in Sources */,
 				DC35217C21CAD9400014568D /* PointsOfInterest.swift in Sources */,
+				DC35069A2204AB93009AB5A7 /* Preferences.swift in Sources */,
 				DC35217721CAD2F50014568D /* PointOfInterest.swift in Sources */,
-				DC113D8E21DE80F1008A4D36 /* CurrentLocation.swift in Sources */,
+				DC35068B2204AB2D009AB5A7 /* LocationManager.swift in Sources */,
+				DC3506952204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */,
+				DC3506902204AB38009AB5A7 /* LocationProvider.swift in Sources */,
+				DC3506862204AB1C009AB5A7 /* Location.swift in Sources */,
 				DCB043B821CC2F0E00FA43CA /* ImageContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
