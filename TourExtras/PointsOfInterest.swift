@@ -23,6 +23,14 @@ class PointsOfInterest {
                 self.places.append(PointOfInterest(label: "30 Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508605, longitude: -70.889498), radius: 100, images: [temps]))
             }
         }
+        ima = UIImage(named: "4")
+        if let tempi = ima {
+            stuff = ImageContent(image: tempi, text: "Hocus Pocus House on Ocean Ave")
+            if let temps = stuff {
+                self.places.append(PointOfInterest(label: "Hocus Pocus House on Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508767, longitude: -70.887803), radius: 100, images: [temps]))
+            }
+        
+        /*
         ima = UIImage(named: "22")
         if let tempi = ima {
             stuff = ImageContent(image: tempi, text: "")
@@ -36,6 +44,7 @@ class PointsOfInterest {
                     self.places.append(PointOfInterest(label: "21 Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508432, longitude: -70.888915), radius: 100, images: [temps]))
                 }
             }
+ */
             /*
              stuff = ImageContent(image: UIImage(named: "16.png")!, text: "")
              self.places.append(PointOfInterest(label: "16 Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508696, longitude: -70.888627), radius: 100, images: [stuff]))
