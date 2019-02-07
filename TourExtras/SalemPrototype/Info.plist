@@ -6,6 +6,10 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -20,6 +24,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>"NSLocationAlwaysAndWhenInUseUsageDescription"</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>"NSLocationWhenInUseUsageDescription"</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>"App requires knowledge of your location in order to work"</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>1785 GLC Baskerville-N.otf</string>
@@ -47,11 +57,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>&quot;App requires knowledge of your location in order to work&quot;</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>&quot;NSLocationAlwaysAndWhenInUseUsageDescription&quot;</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>&quot;NSLocationWhenInUseUsageDescription&quot;</string>
 </dict>
 </plist>

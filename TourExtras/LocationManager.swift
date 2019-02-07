@@ -110,4 +110,12 @@ class LocationManager: NSObject, CLLocationManagerDelegate, LocationProvider {
     func locationManager(_: CLLocationManager, didChangeAuthorization _: CLAuthorizationStatus) {
         NotificationCenter.default.post(name: NSNotification.Name("gpsStateChanged"), object: type(of: self).accessPermission)
     }
+    
+    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
+            if let region = region as? CLCircularRegion {
+                let identifier = region.identifier
+                print("triggerTaskAssociatedWithRegionIdentifier(regionID: \(identifier)")
+            }
+        }
+    
 }
