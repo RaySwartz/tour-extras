@@ -7,7 +7,11 @@
 
 import CoreLocation
 
-class LocationManager: NSObject, CLLocationManagerDelegate, LocationProvider {
+class LocationManager: NSObject, LocationProvider {
+    
+    var realLocationManager : CLLocationManager = CLLocationManager()
+    let theDelegate : CLLocationManagerDelegate = LocationManagerDelegate()
+    
     static var accessPermission: LocationProviderPermission {
  //       if Preferences.gpsEnabled {
             switch CLLocationManager.authorizationStatus() {
@@ -49,7 +53,6 @@ class LocationManager: NSObject, CLLocationManagerDelegate, LocationProvider {
         }
     }
 
-    private let locationManager = CLLocationManager()
 
     init(updateInterval: TimeInterval = 11) {
         super.init()
@@ -62,11 +65,11 @@ class LocationManager: NSObject, CLLocationManagerDelegate, LocationProvider {
 //        if #available(iOS 9.0, *) {
 //            locationManager.allowsBackgroundLocationUpdates = true
 //        }
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.activityType = .otherNavigation
-        locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-        locationManager.delegate = self
-        locationManager.startUpdatingLocation()
+        realLocationManager.requestWhenInUseAuthorization()
+        realLocationManager.activityType = .otherNavigation
+        realLocationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation
+        realLocationManager.delegate = theDelegate
+        realLocationManager.startUpdatingLocation()
     }
 
     private func configureTimer(with interval: TimeInterval) {
@@ -80,42 +83,10 @@ class LocationManager: NSObject, CLLocationManagerDelegate, LocationProvider {
     func requestLocation() {
         guard type(of: self).accessPermission == .authorized else { return }
         if #available(iOS 9.0, *) {
-            locationManager.requestLocation()
+            realLocationManager.requestLocation()
         } else {
-            locationManager.startUpdatingLocation()
+            realLocationManager.startUpdatingLocation()
         }
     }
 
-    // MARK: CLLocationManagerDelegate
-
-    func locationManager(_: CLLocationManager, didFailWithError _: Error) {
-        if #available(iOS 9.0, *) {
-            // we don't need to call stopUpdatingLocation as we are using requestLocation() on iOS 9 and later
-        } else {
-            locationManager.stopUpdatingLocation()
-        }
-    }
-
-    func locationManager(_: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        if let location = locations.last {
-            currentLocation = Location(location)
-        }
-        if #available(iOS 9.0, *) {
-            // we don't need to call stopUpdatingLocation as we are using requestLocation() on iOS 9 and later
-        } else {
-            locationManager.stopUpdatingLocation()
-        }
-    }
-
-    func locationManager(_: CLLocationManager, didChangeAuthorization _: CLAuthorizationStatus) {
-        NotificationCenter.default.post(name: NSNotification.Name("gpsStateChanged"), object: type(of: self).accessPermission)
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
-            if let region = region as? CLCircularRegion {
-                let identifier = region.identifier
-                print("triggerTaskAssociatedWithRegionIdentifier(regionID: \(identifier)")
-            }
-        }
-    
-}
+ }

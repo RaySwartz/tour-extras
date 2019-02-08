@@ -18,6 +18,8 @@ class PointOfInterest {
     var text: String
     var images: [ImageContent]
 
+    // radius in meters
+    
     init(label: String, center: CLLocationCoordinate2D, radius: Double, images: [ImageContent], text: String = "") {
         self.label = label
         self.center = center

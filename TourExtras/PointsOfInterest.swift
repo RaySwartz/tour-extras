@@ -20,14 +20,14 @@ class PointsOfInterest {
         if let tempi = ima {
             stuff = ImageContent(image: tempi, text: "30 Ocean Ave front")
             if let temps = stuff {
-                self.places.append(PointOfInterest(label: "30 Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508605, longitude: -70.889498), radius: 100, images: [temps]))
+                self.places.append(PointOfInterest(label: "30 Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508605, longitude: -70.889498), radius: 30, images: [temps]))
             }
         }
         ima = UIImage(named: "4")
         if let tempi = ima {
             stuff = ImageContent(image: tempi, text: "Hocus Pocus House on Ocean Ave")
             if let temps = stuff {
-                self.places.append(PointOfInterest(label: "Hocus Pocus House on Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508767, longitude: -70.887803), radius: 100, images: [temps]))
+                self.places.append(PointOfInterest(label: "Hocus Pocus House on Ocean Ave", center: CLLocationCoordinate2D(latitude: 42.508767, longitude: -70.887803), radius: 30, images: [temps]))
             }
         
         /*
