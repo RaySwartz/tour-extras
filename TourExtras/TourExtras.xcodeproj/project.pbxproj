@@ -45,6 +45,10 @@
 		DC35217A21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
 		DC35217B21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
 		DC35217C21CAD9400014568D /* PointsOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35217821CAD9400014568D /* PointsOfInterest.swift */; };
+		DC418293220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
+		DC418294220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
+		DC418295220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
+		DC418296220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
 		DCA15A4D2206589100950BDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA15A4C2206589100950BDE /* Images.xcassets */; };
 		DCB043B521CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
 		DCB043B621CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
@@ -102,6 +106,7 @@
 		DC3506962204AB92009AB5A7 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		DC35217321CAD2F50014568D /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		DC35217821CAD9400014568D /* PointsOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterest.swift; sourceTree = "<group>"; };
+		DC418292220DF369007BE669 /* LocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerDelegate.swift; sourceTree = "<group>"; };
 		DCA15A4C2206589100950BDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCB043B421CC2F0E00FA43CA /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
 		DCDE5F5C21C98720007470BD /* SalemPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalemPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +160,7 @@
 				DC35217821CAD9400014568D /* PointsOfInterest.swift */,
 				DC3506822204AB1C009AB5A7 /* Location.swift */,
 				DC3506872204AB2D009AB5A7 /* LocationManager.swift */,
+				DC418292220DF369007BE669 /* LocationManagerDelegate.swift */,
 				DC35068C2204AB38009AB5A7 /* LocationProvider.swift */,
 				DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */,
 				DC3506962204AB92009AB5A7 /* Preferences.swift */,
@@ -417,6 +423,7 @@
 				DC21A7BE21AC6E1B00F445AB /* AppDelegate.swift in Sources */,
 				DC3506882204AB2D009AB5A7 /* LocationManager.swift in Sources */,
 				DC35068D2204AB38009AB5A7 /* LocationProvider.swift in Sources */,
+				DC418293220DF369007BE669 /* LocationManagerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */,
+				DC418294220DF369007BE669 /* LocationManagerDelegate.swift in Sources */,
 				DC35217A21CAD9400014568D /* PointsOfInterest.swift in Sources */,
 				DC3506982204AB93009AB5A7 /* Preferences.swift in Sources */,
 				DC35217521CAD2F50014568D /* PointOfInterest.swift in Sources */,
@@ -448,6 +456,7 @@
 				DC35217621CAD2F50014568D /* PointOfInterest.swift in Sources */,
 				DC3506992204AB93009AB5A7 /* Preferences.swift in Sources */,
 				DCDE5F5F21C98720007470BD /* AppDelegate.swift in Sources */,
+				DC418295220DF369007BE669 /* LocationManagerDelegate.swift in Sources */,
 				DC3506942204AB55009AB5A7 /* Location+CoreLocation.swift in Sources */,
 				DC3506852204AB1C009AB5A7 /* Location.swift in Sources */,
 			);
@@ -458,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDE5F7421C98722007470BD /* SalemPrototypeTests.swift in Sources */,
+				DC418296220DF369007BE669 /* LocationManagerDelegate.swift in Sources */,
 				DC35217C21CAD9400014568D /* PointsOfInterest.swift in Sources */,
 				DC35069A2204AB93009AB5A7 /* Preferences.swift in Sources */,
 				DC35217721CAD2F50014568D /* PointOfInterest.swift in Sources */,

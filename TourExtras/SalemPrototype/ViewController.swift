@@ -10,37 +10,36 @@ import UIKit
 import CoreLocation
 
 class ViewController: UIViewController {
-
-    var currentLocation: CLLocationCoordinate2D?
-//    let locationManager: LocationManager = LocationManager(updateInterval: 2)
-
     
-     required init?(coder aDecoder: NSCoder) {
+    var locationMgrDelegate = LocationManagerDelegate()
+    
+    var currentLocation: CLLocationCoordinate2D?
+    //    let locationManager: LocationManager = LocationManager(updateInterval: 2)
+    
+    
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let interests = PointsOfInterest()
-//        currentLocation = CurrentLocation().currentCoordinate // succeeds
-//        if let cl = currentLocation {
-//            print("Current location: \(cl)")
-//        }
         for loc in interests.places {
-            monitorRegionAtLocation( loc )
+            monitorRegionAtLocation( loc )      // move to a delegate object?
         }
     }
-
+    
     private let locationManager = CLLocationManager()
-
+    
     //func monitorRegionAtLocation(center: CLLocationCoordinate2D, identifier: String ) {
     func monitorRegionAtLocation(_ place: PointOfInterest) {
         // Make sure the app is authorized.
-        if CLLocationManager.authorizationStatus() == .authorizedAlways {
+        //       if CLLocationManager.authorizationStatus() == .authorizedAlways {
+        if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {            // this needs checking
             // Make sure region monitoring is supported.
             if CLLocationManager.isMonitoringAvailable(for: CLCircularRegion.self) {
+                locationManager.delegate = locationMgrDelegate
                 // Register the region.
-//                let maxDistance = locationManager.maximumRegionMonitoringDistance
                 let region = CLCircularRegion(center: place.center,
                                               radius: place.radius, identifier: place.label)
                 region.notifyOnEntry = true
@@ -50,5 +49,8 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    // notifications handled in app delegate
+    
 }
 
