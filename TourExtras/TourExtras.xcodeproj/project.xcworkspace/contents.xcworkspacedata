@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TourExtras.xcodeproj">
+      location = "group:../OceanStroll.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

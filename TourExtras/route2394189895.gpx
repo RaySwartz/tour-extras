@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1"  creator="gpx-poi.com">
+    <wpt lat="42.508605" lon="-70.889498">
+        <time>2019-02-09T15:17:33Z</time>
+        <name>30</name>
+    </wpt>
+    <wpt lat="42.508663" lon="-70.889065">
+        <time>2019-02-09T15:17:35Z</time>
+        <name>22</name>
+    </wpt>
+    <wpt lat="42.508432" lon="-70.888915">
+        <time>2019-02-09T15:17:40Z</time>
+        <name>21</name>
+    </wpt>
+    <wpt lat="42.508696" lon="-70.888627">
+        <time>2019-02-09T15:17:45Z</time>
+        <name>16</name>
+    </wpt>
+    <wpt lat="42.508722" lon="-70.888417">
+        <time>2019-02-09T15:17:50Z</time>
+        <name>12</name>
+    </wpt>
+    <wpt lat="42.508498" lon="-70.888320">
+        <time>2019-02-09T15:17:55Z</time>
+        <name>11</name>
+    </wpt>
+    <wpt lat="42.508767" lon="-70.887803">
+        <time>2019-02-09T15:18:33Z</time>
+        <name>4</name>
+    </wpt>
+</gpx>

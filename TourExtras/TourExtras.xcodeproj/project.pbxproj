@@ -16,7 +16,11 @@
 		DC21A7D521AC6E1C00F445AB /* TourExtrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21A7D421AC6E1C00F445AB /* TourExtrasTests.swift */; };
 		DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */; };
 		DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */; };
-		DC321FFF21DFB926004C7227 /* appIcon in Resources */ = {isa = PBXBuildFile; fileRef = DC321FFE21DFB926004C7227 /* appIcon */; };
+		DC2B4619220F221B00DBDF48 /* route2394189895.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DC2B4618220F221A00DBDF48 /* route2394189895.gpx */; };
+		DC2B461A220F2EBD00DBDF48 /* route2394189895.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DC2B4618220F221A00DBDF48 /* route2394189895.gpx */; };
+		DC2B461B220F2EC100DBDF48 /* route2394189895.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DC2B4618220F221A00DBDF48 /* route2394189895.gpx */; };
+		DC2B461D220F2F3B00DBDF48 /* TourExtras in Resources */ = {isa = PBXBuildFile; fileRef = DC2B461C220F2F3A00DBDF48 /* TourExtras */; };
+		DC2B461E220F2F3B00DBDF48 /* TourExtras in Resources */ = {isa = PBXBuildFile; fileRef = DC2B461C220F2F3A00DBDF48 /* TourExtras */; };
 		DC3506832204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
 		DC3506842204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
 		DC3506852204AB1C009AB5A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3506822204AB1C009AB5A7 /* Location.swift */; };
@@ -49,7 +53,6 @@
 		DC418294220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
 		DC418295220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
 		DC418296220DF369007BE669 /* LocationManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC418292220DF369007BE669 /* LocationManagerDelegate.swift */; };
-		DCA15A4D2206589100950BDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA15A4C2206589100950BDE /* Images.xcassets */; };
 		DCB043B521CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
 		DCB043B621CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
 		DCB043B721CC2F0E00FA43CA /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB043B421CC2F0E00FA43CA /* ImageContent.swift */; };
@@ -98,7 +101,8 @@
 		DC21A7D621AC6E1C00F445AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC21A7E121ADCAF400F445AB /* 1785 GLC Baskerville-N.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-N.otf"; sourceTree = "<group>"; };
 		DC21A7E221ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1785 GLC Baskerville-Ita.otf"; sourceTree = "<group>"; };
-		DC321FFE21DFB926004C7227 /* appIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = appIcon; sourceTree = "<group>"; };
+		DC2B4618220F221A00DBDF48 /* route2394189895.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; lineEnding = 0; path = route2394189895.gpx; sourceTree = "<group>"; };
+		DC2B461C220F2F3A00DBDF48 /* TourExtras */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TourExtras; sourceTree = "<group>"; };
 		DC3506822204AB1C009AB5A7 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		DC3506872204AB2D009AB5A7 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DC35068C2204AB38009AB5A7 /* LocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
@@ -107,7 +111,6 @@
 		DC35217321CAD2F50014568D /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 		DC35217821CAD9400014568D /* PointsOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterest.swift; sourceTree = "<group>"; };
 		DC418292220DF369007BE669 /* LocationManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerDelegate.swift; sourceTree = "<group>"; };
-		DCA15A4C2206589100950BDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCB043B421CC2F0E00FA43CA /* ImageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
 		DCDE5F5C21C98720007470BD /* SalemPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalemPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDE5F5E21C98720007470BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -164,8 +167,9 @@
 				DC35068C2204AB38009AB5A7 /* LocationProvider.swift */,
 				DC3506912204AB54009AB5A7 /* Location+CoreLocation.swift */,
 				DC3506962204AB92009AB5A7 /* Preferences.swift */,
+				DC2B4618220F221A00DBDF48 /* route2394189895.gpx */,
+				DC2B461C220F2F3A00DBDF48 /* TourExtras */,
 				DCB043B421CC2F0E00FA43CA /* ImageContent.swift */,
-				DC321FFE21DFB926004C7227 /* appIcon */,
 				DCDE5F7E21C98E13007470BD /* assets */,
 				DC21A7BC21AC6E1B00F445AB /* TourExtras */,
 				DC21A7D321AC6E1C00F445AB /* TourExtrasTests */,
@@ -227,7 +231,6 @@
 				DCDE5F6221C98720007470BD /* Main.storyboard */,
 				DCDE5F6721C98722007470BD /* LaunchScreen.storyboard */,
 				DCDE5F6A21C98722007470BD /* Info.plist */,
-				DCA15A4C2206589100950BDE /* Images.xcassets */,
 			);
 			path = SalemPrototype;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 			files = (
 				DC21A7CA21AC6E1C00F445AB /* LaunchScreen.storyboard in Resources */,
 				DC21A7E321ADCAF400F445AB /* 1785 GLC Baskerville-N.otf in Resources */,
+				DC2B461A220F2EBD00DBDF48 /* route2394189895.gpx in Resources */,
 				DC21A7E421ADCAF400F445AB /* 1785 GLC Baskerville-Ita.otf in Resources */,
 				DCDE5F7F21C98E13007470BD /* assets in Resources */,
 				DC21A7C721AC6E1C00F445AB /* Assets.xcassets in Resources */,
@@ -388,12 +392,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDE5F6921C98722007470BD /* LaunchScreen.storyboard in Resources */,
-				DCA15A4D2206589100950BDE /* Images.xcassets in Resources */,
+				DC2B4619220F221B00DBDF48 /* route2394189895.gpx in Resources */,
 				DCDE5F7D21C98A0D007470BD /* 1785 GLC Baskerville-Ita.otf in Resources */,
 				DCDE5F8021C98E13007470BD /* assets in Resources */,
 				DCDE5F6421C98720007470BD /* Main.storyboard in Resources */,
-				DC321FFF21DFB926004C7227 /* appIcon in Resources */,
 				DCDE5F7C21C98A0A007470BD /* 1785 GLC Baskerville-N.otf in Resources */,
+				DC2B461D220F2F3B00DBDF48 /* TourExtras in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +406,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE1DA4621CD68BF004C2300 /* assets in Resources */,
+				DC2B461B220F2EC100DBDF48 /* route2394189895.gpx in Resources */,
+				DC2B461E220F2F3B00DBDF48 /* TourExtras in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,11 +733,12 @@
 		DCDE5F7621C98722007470BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W8M6P85B32;
 				INFOPLIST_FILE = SalemPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -746,11 +753,12 @@
 		DCDE5F7721C98722007470BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W8M6P85B32;
 				INFOPLIST_FILE = SalemPrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
